@@ -1,1 +1,2 @@
 # RAG_Document_QA_Conversation
+A conversational PDF-based QA chatbot built with Streamlit, LangChain, and HuggingFace's all-miniLM-L6-v2 for semantic embedding. It integrates Gemma2, a large language model served via Groq API, to generate accurate answers based user questions. Uploaded PDFs are processed, chunked, and embedded, with embeddings stored in Chroma VectorDB. The system retrieves context using retrievers and responds via a Retriever-Augmented Generation (RAG) chain. Includes multi-turn chat history for seamless user interaction.
